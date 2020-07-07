@@ -41,7 +41,9 @@ export default function Layout({ children }) {
           float: right;
         `}
       >
-        About
+        <button>
+          About
+        </button>
       </Link>
       <Link
         to={`/my-files/`}
@@ -50,7 +52,9 @@ export default function Layout({ children }) {
           margin-right: 10px;
         `}
       >
-        My Files
+        <button>
+          My Files
+        </button>
       </Link>
       {children}
     </div>
